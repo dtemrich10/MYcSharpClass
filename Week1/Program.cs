@@ -7,7 +7,17 @@ namespace Week1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello World!");
+            Vehicle vehicle = new Vehicle();
+
+            vehicle.Color = "Blue";
+
+            Vehicle myVehicle = new Vehicle();
+
+            myVehicle.Color = "red";
+            myVehicle.OpenDoor();
+
+            Car car = new Car();
+            car.OpenDoor();
         }
     }
 }

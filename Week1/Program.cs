@@ -4,7 +4,8 @@ namespace Week1
 {
     class Program
     {
-        static void Main(string[] args)
+        //static void Main(string[] args)
+        public void main1()
         {
             Console.WriteLine("Hello World!");
             Vehicle vehicle = new Vehicle();

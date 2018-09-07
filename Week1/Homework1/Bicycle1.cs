@@ -1,6 +1,6 @@
 using System;
 
-public class Bicycle
+public class Bicycle1
 {
     protected string size {get; set;}
 

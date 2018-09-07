@@ -1,7 +1,7 @@
 using System;
 
 // MountainBike inheritace from bicycle
-public class MountainBike : Bicycle
+public class MountainBike : Bicycle1
 { 
    //This overrides a default constructor
    public MountainBike (string size)

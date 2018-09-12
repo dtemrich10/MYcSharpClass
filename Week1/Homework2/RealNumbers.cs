@@ -5,7 +5,8 @@ namespace Week1.Homework2
 {
     public class RealNumbers
     {
-        static void Main(string[] args)
+       // static void Main(string[] args)
+        public void Mainu(string[] args)
         {
 
             Bicycle bi = new Bicycle(50);
@@ -13,6 +14,8 @@ namespace Week1.Homework2
             int size = bi._iSize;
             string s = bi._sColor;
             bi._sColor ="brown";
+            bi.setTheCustomPropertyFeature("Color of Wheels", "Blue");
+            bi.setTheCustomPropertyValue("Size of seat", 8);
             bi.getTheBicycle();
 
             System.Console.Write("The first 10 natural numbers are: ");

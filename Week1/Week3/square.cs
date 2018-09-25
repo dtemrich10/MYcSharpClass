@@ -1,12 +1,12 @@
 namespace Week1.Week3
 {
-    public class runme
+   /* public class runme
     {
         static void Main(string[] args)
         {
            square yourSquare = new square{color = "blue"};
         }
-    }
+    }*/
 
     public class square
     {
